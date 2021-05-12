@@ -1,0 +1,11 @@
+# Url do Vivareal (de onde pegar a lista de imoveis)
+url = "https://www.vivareal.com.br/aluguel/sp/sao-paulo/zona-sul/vila-clementino/"
+
+# Locais para georreferenciar
+locais = ["Estação de metrô", "Hospital", "Shopping center", "CEI", "Supermercado", "Centro de educação infantil"]
+
+# Centroide (a partir de onde buscar os locais acima)
+centroide = [-23.593715, -46.6534621]
+
+# Raio ate onde buscar (quanto maior, mais requisicoes sao feitas ao Google Maps)
+raio = 4000

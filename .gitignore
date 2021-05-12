@@ -1,0 +1,6 @@
+.venv
+__pycache__
+data/dados.db
+*.ipynb
+# Ignore dynaconf secret files
+.secrets.*
